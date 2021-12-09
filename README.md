@@ -63,9 +63,6 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **sup_training_data_model_15.csv**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Best_Semi-Supervised_Model Output.*  
 |&nbsp;  
-|-- **[Test_Models](https://drive.google.com/drive/folders/1V3Vf_LMHv4ZFUMCvriNz4FYRupqSEvuf?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Folder contains Models 2 to 13.*  
-|&nbsp;  
 |-- **[W207_CNN_Final Submission_Model_14.ipynb](https://drive.google.com/file/d/1J9B29b_IdsS6PBSdYlIQ63RPsZQrLKfG/view?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final CNN Model Class Submission.*    
 |&nbsp;  
