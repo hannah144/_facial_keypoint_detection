@@ -34,19 +34,19 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Folder contains the models, model checkpoints and data for our Semi-Supervised Learning work.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[OG_Semi_Supervised_Model.ipynb](https://drive.google.com/file/d/16A103Y2KUSEEBaee-N06ZQgbwa-WFtlM/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Initial Semi-Supervised Model, uses the same architecture as the initial CNN model in Mode1 5.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Initial Semi-Supervised Model, uses the same architecture as the initial CNN model in Model 5.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **OG_Semi-Supervised_Model_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Initial Semi-Supervised Model. Use to recreate the OG Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Clean_Semi-Supervised_Model.ipynb](https://drive.google.com/file/d/1aVz4wO7JB2I6Ow9ReBDLdHEWIacHGYdE/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Second Semi-Supervised Model version, uses the same architecture as the initial CNN model in Mode1 14.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Second Semi-Supervised Model version, uses the same architecture as the initial CNN model in Model 14.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **Clean_Semi-Supervised_Model_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Second Semi-Supervised Model. Use to recreate the Second Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Best_Semi-Supervised_Model.ipynb](https://drive.google.com/file/d/1tmOlgv25cBN0Z0ykbqaj_LY-nSeMP0vf/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, uses the same architecture as the initial CNN model in Mode1 14.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, uses the same architecture as the initial CNN model in Model 14.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **Best_Semi-Supervised_Model_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Third Semi-Supervised Model. Use to recreate the Third Semi-Supervised Data.*  
