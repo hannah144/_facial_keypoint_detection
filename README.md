@@ -4,7 +4,7 @@
 #### **[Link to Kaggle Competition](https://www.kaggle.com/c/facial-keypoints-detection)**  
 ***
 ### Project Overview
-Recognizing facial keypoints, such as the center of the left eye or the tip of the nose, is a fundamental building block of biometrics, tracking faces in videos, and medical diagnosis using facial signs. The goal of this project is to build a machine learning model to predict the location of 15 facial keypoints given a diverse set of 7049 facial images.
+Recognizing facial keypoints, such as the center of the left eye or the tip of the nose, is a fundamental building block of biometrics, tracking faces in videos, and medical diagnosis using facial signs. The goal of this project is to build a machine learning model to predict the x,y coordinate location of 15 facial keypoints given a diverse set of 7049 facial images.
 
 For 6 weeks, our team iterated over more than 15 convolutional neural network (CNN) models, constantly redefining our approach and model architecture to reach our best result. Our primary challenges were handling large amounts of missing facial keypoint values, and designing an architecture and strategy to minimize prediction error. The main metric we used to evaluate the "goodness" of our model was mean squared error loss (MSE Loss). This value is simply the square of the root mean squared error, the metric Kaggle uses to evaluate submissions for this competition. Below are the results of our baseline model and best model (Model 15).
 
@@ -34,22 +34,22 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Folder contains the models, model checkpoints and data for our Semi-Supervised Learning work.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[OG_Semi_Supervised_Model.ipynb](https://drive.google.com/file/d/16A103Y2KUSEEBaee-N06ZQgbwa-WFtlM/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Initial Semi-Supervised Model, uses the same architecture as the initial CNN model in Mode1 5.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Initial Semi-Supervised Model, uses the same architecture as the initial CNN model in Model 5.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **OG_Semi-Supervised_Model_checkpoints**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Initial Semi-Supervised Model. Can use to recreate the OG Semi-Supervised Data.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Initial Semi-Supervised Model. Use to recreate the OG Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Clean_Semi-Supervised_Model.ipynb](https://drive.google.com/file/d/1aVz4wO7JB2I6Ow9ReBDLdHEWIacHGYdE/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Second Semi-Supervised Model version, uses the same architecture as the initial CNN model in Mode1 14.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Second Semi-Supervised Model version, uses same architecture as the initial CNN model in Model 14.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **Clean_Semi-Supervised_Model_checkpoints**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Second Semi-Supervised Model. Can use to recreate the Second Semi-Supervised Data.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Second Semi-Supervised Model. Use to recreate 2nd Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Best_Semi-Supervised_Model.ipynb](https://drive.google.com/file/d/1tmOlgv25cBN0Z0ykbqaj_LY-nSeMP0vf/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, uses the same architecture as the initial CNN model in Mode1 14.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, uses the same architecture as the initial CNN model in Model 14.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **Best_Semi-Supervised_Model_checkpoints**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Third Semi-Supervised Model. Can use to recreate the Third Semi-Supervised Data.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Third Semi-Supervised Model. Use to recreate the 3rd Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Semi-Supervised_Data](https://drive.google.com/drive/folders/1WLvKbAoPAyJATuLANfjWzt6omOg7ZY8h?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contains 3 Semi-Supervised Data Files, output of the above models.*  
@@ -70,7 +70,7 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final CNN Model Class Submission.*    
 |&nbsp;  
 |-- **Model_14_checkpoints**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 14 Final CNN Model Submission. Can use to recreate predictions.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 14 Final CNN Model Submission. Use to recreate predictions.*  
 |&nbsp;  
 |-- **[W207_Final_Project_Presentation.pdf](https://drive.google.com/file/d/1_7eGl-EX89eBLrEYQCc-BrgCXGsFAQ7J/view?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final W207 Presentation of Models.*  
@@ -79,7 +79,7 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Best CNN Model Produced.*  
 |&nbsp;  
 |-- **Model_15_checkpoints**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 15 Best CNN Model. Can use to recreate predictions.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 15 Best CNN Model. Use to recreate predictions.*  
 |&nbsp;  
 |-- **[Kaggle_Submissions](https://drive.google.com/drive/folders/1q-L5gw7U5WHoQuy3fHrvyIbbmLo2Yrdo?usp=sharing)**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contains items needed for Kaggle Submissions.*  
