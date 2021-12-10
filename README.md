@@ -76,7 +76,4 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;  
 |-- **Model_15_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 15 Best CNN Model. Use to recreate predictions.*  
-|&nbsp;  
-|-- **[Kaggle_Submissions](https://drive.google.com/drive/folders/1q-L5gw7U5WHoQuy3fHrvyIbbmLo2Yrdo?usp=sharing)**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contains items needed for Kaggle Submissions.*  
  
