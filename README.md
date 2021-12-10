@@ -1,5 +1,4 @@
 # _facial_keypoint_detection
-### **Berkeley MIDS W207 Applied Machine Learning Fall 2021 Section 02**
 ### **By: Hannah Gross, Anand Patel, Frances Leung & Rumi Nakagawa**
 #### **[Link to Kaggle Competition](https://www.kaggle.com/c/facial-keypoints-detection)**  
 ***
@@ -27,8 +26,8 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |-- **[Kaggle_Data](https://drive.google.com/drive/folders/17PIoKgVfRCJIA2s4rnPV6GGBO4ptoFnk?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Folder contains the original data downloaded from the [Kaggle competition](https://www.kaggle.com/c/facial-keypoints-detection).*  
 |&nbsp;  
-|-- **[W207_CNN_Baseline_Final_Submission.ipynb](https://drive.google.com/file/d/1V5t75TCg5gbaBcb1MZuoTGwbqgLRnzM9/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Our team's initial submission setting a baseline result used to measure our subsequent models against.*  
+|-- **[CNN_Baseline.ipynb](https://drive.google.com/file/d/1V5t75TCg5gbaBcb1MZuoTGwbqgLRnzM9/view?usp=sharing)**  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Our team's initial baseline result used to measure our subsequent models against.*  
 |&nbsp;  
 |-- **[Semi_Supervised_Learning](https://drive.google.com/drive/folders/1JZVwUT17xM8-S7Tv1ybR7SpLMi729h7r?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Folder contains the models, model checkpoints and data for our Semi-Supervised Learning work.*  
@@ -63,14 +62,14 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **sup_training_data_model_15.csv**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Best_Semi-Supervised_Model Output.*  
 |&nbsp;  
-|-- **[W207_CNN_Final Submission_Model_14.ipynb](https://drive.google.com/file/d/1J9B29b_IdsS6PBSdYlIQ63RPsZQrLKfG/view?usp=sharing)**  
+|-- **[CNN_Model_14_presentation_version.ipynb](https://drive.google.com/file/d/1J9B29b_IdsS6PBSdYlIQ63RPsZQrLKfG/view?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final CNN Model Class Submission.*    
 |&nbsp;  
 |-- **Model_14_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Model 14 Final CNN Model Submission. Use to recreate predictions.*  
 |&nbsp;  
-|-- **[W207_Final_Project_Presentation.pdf](https://drive.google.com/file/d/1_7eGl-EX89eBLrEYQCc-BrgCXGsFAQ7J/view?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final W207 Presentation of Models.*  
+|-- **[Final_Presentation.pdf](https://drive.google.com/file/d/1_7eGl-EX89eBLrEYQCc-BrgCXGsFAQ7J/view?usp=sharing)**  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Final Presentation of Models.*  
 |&nbsp;  
 |-- **[Best_CNN_Model_15.ipynb](https://drive.google.com/file/d/19ah7Fu062tB9InEBOn-98etRmBe5ALdI/view?usp=sharing)**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Best CNN Model Produced.*  
