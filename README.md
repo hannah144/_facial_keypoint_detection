@@ -1,5 +1,5 @@
 # _facial_keypoint_detection
-### **By: Hannah Gross, Anand Patel, Frances Leung & Rumi Nakagawa**
+### **By: Anand Patel, Frances Leung, Hannah Gross & Rumi Nakagawa**
 #### **[Link to Kaggle Competition](https://www.kaggle.com/c/facial-keypoints-detection)**  
 ***
 ### Project Overview
