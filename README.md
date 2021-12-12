@@ -3,7 +3,11 @@
 #### **[Link to Kaggle Competition](https://www.kaggle.com/c/facial-keypoints-detection)**  
 ***
 ### Project Overview
-Recognizing facial keypoints, such as the center of the left eye or the tip of the nose, is a fundamental building block of biometrics, tracking faces in videos, and medical diagnosis using facial signs. The goal of this project is to build a machine learning model to predict the x,y coordinate location of 15 facial keypoints given a diverse set of 7049 facial images.
+Recognizing facial keypoints, such as the center of the left eye or the tip of the nose, is a fundamental building block of biometrics, tracking faces in videos, and medical diagnosis using facial signs. The goal of this project is to build a machine learning model to predict the x,y coordinate location of 15 facial keypoints given a diverse set of 7049 facial images. Below are the project team's facial images with keypoints predicted by the best model created.
+
+<p align="center">
+  <img src="team_images.png">
+</p>
 
 For 6 weeks, our team iterated over more than 15 convolutional neural network (CNN) models, constantly redefining our approach and model architecture to reach our best result. Our primary challenges were handling large amounts of missing facial keypoint values, and designing an architecture and strategy to minimize prediction error. The main metric we used to evaluate the "goodness" of our model was mean squared error loss (MSE Loss). This value is simply the square of the root mean squared error, the metric Kaggle uses to evaluate submissions for this competition. Below are the results of our baseline model and best model (Model 15).
 
