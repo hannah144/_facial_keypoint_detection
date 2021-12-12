@@ -49,7 +49,7 @@ Below is a detailed table of contents to help curious viewers navigate our work.
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Second Semi-Supervised Model. Use to recreate 2nd Semi-Supervised Data.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **[Best_Semi-Supervised_Model.ipynb](https://colab.research.google.com/drive/1ObcS5B9m05gmHp10JagCoqIfRXjT3WjV?usp=sharing)**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, applies SELU activation function instead of Leaky Relu to the architecture of the initial CNN model in Model 14.*  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Third Semi-Supervised Model version, applies SELU activation function to the architecture in Model 14.*  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- **Best_Semi-Supervised_Model_checkpoints**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Model checkpoints from Third Semi-Supervised Model. Use to recreate the 3rd Semi-Supervised Data.*  
